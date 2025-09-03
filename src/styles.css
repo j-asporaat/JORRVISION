@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap");
+@import "tailwindcss";
+
+body {
+	@apply m-0;
+	font-family: "Instrument Serif", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-x: hidden;
+}
+
+* {
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+@media (max-width: 1000px) {
+	.intro h1,
+	.spotlight-intro-header {
+		width: 100%;
+	}
+
+	.spotlight-intro-header {
+		padding: 2rem;
+	}
+}
